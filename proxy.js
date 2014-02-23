@@ -8,6 +8,8 @@ var options = {
     'www.rasmuzen.com': '127.0.0.1:8002',
     'trigrid.rasmuzen.com': '127.0.0.1:8003',
     'coin.rasmuzen.com': '127.0.0.1:8004',
+    'www.sixtylarge.com': '127.0.0.1:8004',
+    'sixtylarge.com': '127.0.0.1:8004',
   }
 };
 
