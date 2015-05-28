@@ -9,8 +9,12 @@ var httpOptions = {
     'www.rasmuzen.com': '127.0.0.1:8002',
     'trigrid.rasmuzen.com': '127.0.0.1:8003',
     'www.sixtylarge.com': '127.0.0.1:8005',
-    'sixtylarge.com': '127.0.0.1:8005'
-  }
+    'sixtylarge.com': '127.0.0.1:8005',
+    'www.lovelyandsilly.com': '127.0.0.1:8006',
+    'lovelyandsilly.com': '127.0.0.1:8006',
+    'www.productpains.com': '127.0.0.1:8007',
+    'productpains.com': '127.0.0.1:8007',
+  },
 };
 
 var httpProxyServer = httpProxy.createServer(httpOptions);
