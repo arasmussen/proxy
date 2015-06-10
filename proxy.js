@@ -12,6 +12,7 @@ var httpOptions = {
     'sixtylarge.com': '127.0.0.1:8005',
     'www.lovelyandsilly.com': '127.0.0.1:8006',
     'lovelyandsilly.com': '127.0.0.1:8006',
+    'api.productpains.com': '127.0.0.1:8007',
     'www.productpains.com': '127.0.0.1:8007',
     'productpains.com': '127.0.0.1:8007',
   },
