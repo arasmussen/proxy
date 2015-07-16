@@ -8,6 +8,8 @@ var httpOptions = {
     'rasmuzen.com': '127.0.0.1:8002',
     'www.rasmuzen.com': '127.0.0.1:8002',
     'trigrid.rasmuzen.com': '127.0.0.1:8003',
+    'a13n.com': '127.0.0.1:8002',
+    'www.a13n.com': '127.0.0.1:8002',
     'www.sixtylarge.com': '127.0.0.1:8005',
     'sixtylarge.com': '127.0.0.1:8005',
     'www.lovelyandsilly.com': '127.0.0.1:8006',
@@ -19,7 +21,7 @@ var httpOptions = {
 };
 
 var httpProxyServer = httpProxy.createServer(httpOptions);
-httpProxyServer.listen(80);
+httpProxyServer.listen(3000);
 
 var httpsOptions = {
   https: {
@@ -33,7 +35,7 @@ var httpsOptions = {
 };
 
 var httpsProxyServer = httpProxy.createServer(httpsOptions);
-httpsProxyServer.listen(443);
+httpsProxyServer.listen(3001);
 
 // redirect [http://] || [www.] to https://sixtylarge.com
 var express = require('express');
